@@ -85,7 +85,7 @@ function Home () {
       <li><NavLink to='Product'className="link-mobile" > <strong>Products</strong> </NavLink></li>
       <li><NavLink to='Services'className="link-mobile"><strong>Services</strong></NavLink></li>
       <li><NavLink to='About'className="link-mobile"><strong>About</strong> <FaAddressBook/></NavLink></li>
-      <li><NavLink to='Setting'className="link-mobile"><strong>Settings</strong> </NavLink></li>
+      <li><NavLink to='/'className="link-mobile"><strong>Settings</strong> </NavLink></li>
       <li className="link-mobile"><button onClick={handleSignOut} className="red-btn"><strong>Sign out</strong></button></li>
       </ul>
           </div>)}
