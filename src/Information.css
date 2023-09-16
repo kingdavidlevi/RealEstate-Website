@@ -64,7 +64,13 @@
         margin-top: 15px;
     }
   
-    
+    .home-link{
+        color: orange;
+        font-weight: bold;
+        font-size:18px ;
+        padding-top: 30px;
+   
+      }
     .info-location{
         color:darkgrey;
         font-size: 18px;
@@ -73,13 +79,14 @@
         padding-bottom: 30px;
     }
     .info-div{
-      
+        background-color: #061E45;
         color:white;
         padding-left: 30px;
         padding-right: 20px;
         padding-bottom: 50px;
         width: 80%;
         margin-top: 10px;
+        padding-top: 50px;
        
     }
     .info{
