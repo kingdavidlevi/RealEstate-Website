@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:1041px){
+     
+    .nav-links{
+     
+        background-color: #061E45;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        height: 60px;
+        color: white;
+        position: fixed;
+        z-index: 4;
+        width: 100vw;
+        top: 0px;
+        overflow-x: hidden;
+        text-align: center;
+    }
+    
+    .sign-out{
+        background-color: red;
+        color: white;
+        width: 80px;
+        font-size: 15px;
+        padding: 5px 5px 5px 5px;
+    }
+    .ul-links  {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+        list-style-type: none;
+        
+    }
+    .link{
+        color:white;
+        text-decoration: none;
+    }
+    
+    .link:hover{
+        font-size:22px ;
+        text-decoration: underline;
+        color: antiquewhite;
+    }
+
+    .ul-links li {
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .home{
+        font-size: 30px;
+        color:white;
+        margin-left: 10px;
+        
+        
+    }
+    .real{
+    
+        margin-left: 35px;
+    }
+}
+
+
+
+@media  screen and (max-width:1040px) {
+    
+
+
+.bars{
+    color: white;
+    font-size: 20px;
+    margin-right: 17px;
+    margin-top: 10px;
+}
+
+
+  
+.times{
+    font-size: 25px;
+    color: white;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+
+.nav-links1{
+     
+    background-color: #061E45;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 60px;
+    color: white;
+    position: fixed;
+    z-index: 4;
+    width: 100vw;
+    top: 0px;
+    overflow-x: hidden;
+}
+
+.home{
+    font-size: 30px;
+    color:white;
+    margin-left: 10px;
+    
+    
+}
+ 
+
+.real{
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+
+ .nav-links{
+    display: none;
+ }   
+
+
+}
+
+@media screen and (max-width:500px) {
+    .home{
+        font-size: 20px;
+        color:white;
+        margin-left: 10px;
+        
+        
+    }
+
+    
+.real{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+    .hidden{
+        overflow-x: hidden;
+    }
+
+   
+.times{
+    font-size: 25px;
+    color: white;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+    .nav-links1{
+        background-color: #061E45;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        height: 60px;
+        color: white;
+        position: fixed;
+        z-index: 4;
+        width: 100vw;
+        top: 0px;
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        display: none;
+    }
+    
+   
+    .real{
+        margin-bottom: 5px;
+        margin-left: 10px;
+        
+    }
+    .bars {
+    color: white;
+    margin-right:10px ;
+    font-size: 20px;
+    margin-top: 10px;
+}
+    
+}
+  

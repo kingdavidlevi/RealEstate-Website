@@ -1,0 +1,116 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:500px){
+    .info-images{
+        width: 250px;
+        height: 250px;
+        margin-top: 15px;
+    }
+  
+    .home-link{
+        color: orange;
+        font-weight: bold;
+        font-size:18px ;
+        padding-top: 30px;
+   
+      }
+    .info-location{
+        color:darkgrey;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .info-div{
+        background-color:#061E45;
+        color:white;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+       
+    }
+    .info{
+        color: blueviolet;
+    }
+    .info-line{
+        margin-top: 60px;
+    }
+    .info-paragraph{
+        font-size: 18px;
+        word-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .info-btn{
+        background-color: red;
+        color: white;
+        padding: 5px 5px ;
+        width: 120px;
+        font-size: 18px;
+        margin-top: 15px;
+        
+    } 
+    
+
+}
+
+@media screen and (min-width:501px){
+    .info-images{
+        width: 400px;
+        height: 350px;
+        margin-top: 15px;
+    }
+  
+    
+    .info-location{
+        color:darkgrey;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .info-div{
+      
+        color:white;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        width: 80%;
+        margin-top: 10px;
+       
+    }
+    .info{
+        color: blueviolet;
+        
+    }
+    .info-line{
+        margin-top: 10px;
+        background-color:#061E45;
+    }
+    .info-paragraph{
+        font-size: 18px;
+        word-spacing: 2px;
+        padding-bottom: 20px;
+
+    }
+    .info-btn{
+        background-color: red;
+        color: white;
+        padding: 5px 5px ;
+        width: 120px;
+        font-size: 18px;
+        
+    } 
+    .home-link{
+        color: orange;
+        font-weight: bold;
+        font-size:18px ;
+        padding-top: 30px;
+   
+      }
+    
+
+}

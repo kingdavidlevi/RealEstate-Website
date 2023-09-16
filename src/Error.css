@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin:0px ;
+}
+
+.error{
+    height:100px ;
+    color: red;
+    padding-top: 100px;
+}

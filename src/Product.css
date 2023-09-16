@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width:500px){
+    .product-ul{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .product-div{
+    
+       
+        height: 350px;
+        width: 100%;
+        padding-top: 10px;
+        color: white;
+        padding-left: 30px;
+    }
+    .product-link{
+        color: white;
+        font-weight: bold;
+        font-size:18px ;
+        margin-bottom: 0px;
+       
+    }
+    .products{
+        padding-top: 40px;
+        
+    }
+    .products2{
+        padding-bottom: 20px;
+    }
+    .product-main{
+        background-image: url('skyscrapers-from-low-angle-view1.jpg');
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   .orange-btn{
+    
+    background-color: orangered;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    padding: 5px 10px ;
+    border: none;
+    
+
+   }
+   .product-orange{
+    text-align: center;
+    height: 170px;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding-top: 20px;
+    border-top-left-radius: 2.5rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+   }
+
+}
+
+@media screen and (min-width:501px){
+
+    .product-ul{
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .product-div{
+    
+       
+        height: 450px;
+        width: 100%;
+        padding-top: 10px;
+        color: white;
+       padding-left: 60px;
+    }
+    .product-link{
+        color: white;
+        font-weight: bold;
+        font-size:18px ;
+        margin-bottom: 0px;
+       
+    }
+    .products{
+        padding-top: 40px;
+        font-size: 25px;
+        
+    }
+
+    .products2{
+        font-size: 25px;
+        padding-bottom: 30px;
+    }
+    .product-main{
+        background-image: url('skyscrapers-from-low-angle-view1.jpg');
+        height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+   .orange-btn{
+    
+    background-color: orangered;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 15px ;
+    border: none;
+    
+
+   }
+   .product-orange{
+    padding-left: 80px;
+    height: 150px;
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    padding-top: 20px;
+    border-top-left-radius: 2.5rem;
+    
+   }
+
+}

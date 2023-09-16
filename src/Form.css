@@ -1,0 +1,919 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:500px){
+
+.form{
+  margin-left: 25px;
+}
+
+.form-nav-links{
+  text-align: center;
+  background-color: #061E45;
+  height: 60px;
+  width: 100%;
+  color: white;
+  padding-top: 10px;
+}
+
+
+.register {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.input1 {
+  width: 300px;
+  padding: 8px 0px 8px 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color:gray;
+  color:white;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.input1:focus{
+  border: 3px solid lightblue;
+}
+
+.red{
+ margin-left: 5px;
+ 
+}
+ 
+
+
+.navy2 {
+  background-color:navy;
+  margin-top: 30px;
+  width: 350px;
+  padding-top: 5px;
+  border-radius: 10px;
+  padding-bottom: 25px;
+  align-items: center;  
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  -ms-transform:
+  translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.input {
+  width: 300px;
+  padding: 5px 0px 5px 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color:gray;
+  color: white;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  position: relative;
+  border: 3px solid gray;
+  
+}
+
+ .or{
+  margin-right: 25px;
+  text-align: center;
+  color: white;
+ }
+
+
+.facebook{
+  
+  color: navy;
+}
+.checked{
+  height: 18px;
+  width: 18px;
+  margin-top: 5px;
+  
+}
+.position{
+  font-size: 18px;
+  color:white;
+ position: absolute; 
+ top :290px;
+ left: 360px;
+} 
+ 
+
+ 
+.input:focus {
+  border: 3px solid lightblue;
+}
+
+.welcome{
+  color: white;
+  text-align: center;
+}
+.achieve{
+  color: white;
+  text-align: center;
+}
+
+ 
+::placeholder{
+  color: white;
+}
+
+  
+
+  
+  .home{
+    color: white;
+  
+  
+  }
+  .agreement {
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    
+  }
+  
+   
+  
+  
+  .link-mobile{
+    text-decoration: none;
+   color: white;
+   display: block;
+    
+  
+  }
+  
+   
+
+  
+
+    form{
+      margin-left: 25px;
+    }
+    
+    .link-mobile{
+      text-decoration: none;
+     color: white;
+     display: block;
+      
+    
+    }
+    
+    .navy {
+      background-image: url('house-1836070_1280.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      
+    }
+    
+    .times{
+      
+      font-size: 25px;
+      color: white;
+      margin-right: 7px;
+    
+    
+    }
+    
+    .bars{
+      color: white;
+      font-size: 20px;
+      
+    }
+      
+     
+    .facebook{
+      
+      color: navy;
+    }
+    .checked{
+      height: 18px;
+      width: 18px;
+      
+    }
+    .position{
+      font-size: 18px;
+      color:white;
+     position: absolute; 
+     top :220px;
+     left: 290px;
+    }
+     
+    
+    .nav-images{
+      
+      background-image: url('house-1836070_1280.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 500px;
+      width: 100%;
+    
+    }
+    
+    
+    .input:focus {
+      border: 3px solid lightblue;
+    }
+    
+    .welcome{
+      color: white;
+      text-align: center;
+    }
+    .achieve{
+      color: white;
+      text-align: center;
+    }
+    .register {
+      color: white;
+      padding-top: 5px;
+      text-align: center;
+    }
+    
+    
+    
+    
+    ::placeholder{
+      color: white;
+    }
+    
+   
+  
+  .times{
+    
+    font-size: 25px;
+    color: white;
+    margin-right: 7px;
+  
+  
+  }
+  
+  .bars{
+    color: white;
+    font-size: 20px;
+    
+  }
+    
+  
+  .facebook{
+    
+    color: navy;
+  }
+  .checked{
+    height: 18px;
+    width: 18px;
+    
+  }
+  
+ 
+   
+  .input1:focus{
+    background-color: 3px solid lightblue;
+  }
+  
+  
+  .nav-images{
+    
+    background-image: url('house-1836070_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  
+  }
+  
+  
+  .input:focus {
+    border: 3px solid lightblue;
+  }
+  
+  .welcome{
+    color: white;
+    text-align: center;
+  }
+  .achieve{
+    color: white;
+    text-align: center;
+  }
+ 
+  
+  
+  .red{
+    color: red;
+    position: absolute;
+    top: 305px;
+    font-size: 10px;
+  }
+  
+  .mobile-links{
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    height: 60vh;
+    background-color:rgb(78, 88, 97);
+    padding-top: 30px;
+   margin-top:10px ;
+   margin-right: 5px;
+   border-radius: 10px;
+    width: 80%;
+   display: flex;
+   gap: 3rem;
+   right: -500px;
+   align-items: center;
+   animation: menu-nav 1.5s ease-in-out -1s 1  forwards ;
+   z-index: 3;
+   top: 60px;
+   
+  }
+  
+  
+  ::placeholder{
+    color: white;
+  }
+  
+  
+   
+ .submit{
+  width: 300px;
+  padding: 10px 0px 10px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  background-color: blueviolet;
+  color: white;
+  margin-bottom: 15px;
+ }
+
+
+ .btn{
+  width: 300px;
+  padding: 8px 0px 8px 10px;
+  border-radius:10px ;
+  margin-top: 15px;
+  color: white;
+  background-color:blueviolet;
+  font-size: 15px;
+
+ }
+
+ .btn1{
+  width: 300px;
+  padding: 8px 0px 8px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  color: black;
+  background-color:white;
+  font-size: 15px;
+
+ } 
+ 
+
+}
+@media screen and (max-width:380px){
+  .form-nav-links{
+    text-align: center;
+    background-color: #061E45;
+    height: 50px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+
+  }
+  .input{
+    width: 280px;
+    padding: 2px 0px 2px 10px;
+    border: 3px solid gray;
+
+  }
+  
+  
+  
+  .red{
+    color: red;
+    position: absolute;
+    top: 280px;
+    font-size: 10px;
+  }
+.input1{
+  width: 280px;
+  padding: 2px 0px 2px 10px;
+  border: 3px solid gray;
+}
+.position{
+  left: 280px;
+  top: 205px;
+  position: absolute;
+}
+  .navy2 {
+    background-color:navy;
+    margin-top: 30px;
+    width: 320px;
+    padding-top: 5px;
+    border-radius: 10px;
+    padding-bottom: 25px;
+    align-items: center;  
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -ms-transform:
+    translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+  
+  }
+  
+ .submit{
+  width: 280px;
+  padding: 10px 0px 10px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  background-color: blueviolet;
+  color: white;
+  margin-bottom: 15px;
+  padding: 5px 0px 5px 10px;
+ }
+
+
+ .btn{
+  width: 280px;
+  padding: 8px 0px 8px 10px;
+  border-radius:10px ;
+  margin-top: 15px;
+  color: white;
+  background-color:blueviolet;
+  font-size: 15px;
+  padding: 5px 0px 5px 10px;
+ }
+
+ .btn1{
+  width: 280px;
+  padding: 8px 0px 8px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  color: black;
+  background-color:white;
+  font-size: 15px;
+  padding: 5px 0px 5px 10px;
+ } 
+}
+
+@media  screen and (min-width:501px) {
+  
+
+  form{
+    margin-left: 50px;
+  }
+  
+  .home{
+    color: white;
+  
+  
+  }
+
+  .form-nav-links{
+    text-align: center;
+    background-color: #061E45;
+    height: 60px;
+    width: 100%;
+    color: white;
+    padding-top: 10px;
+    font-size: 25px;
+  }
+  
+  .agreement {
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    
+  }
+ 
+  
+  .navy2 {
+    background-color:midnightblue;
+    width: 450px;
+    padding-top: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform:
+    translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    margin-top: 10px;
+    padding-bottom: 40px;
+  }
+  
+  
+  .link-mobile{
+    text-decoration: none;
+   color: white;
+   display: block;
+    
+  
+  }
+  
+   
+  
+  
+  .navy {
+    background-image: url('house-1836070_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    
+  }
+  
+  .blur{
+    margin-top: 25px;
+    background-color:rgb(0, 0, 0,0.5);
+    content: "";
+    width: 350px;
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    align-items: center;  
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    -ms-transform:
+    translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+     
+  }
+  
+  .times{
+    
+    font-size: 25px;
+    color: white;
+    margin-right: 7px;
+  
+  
+  }
+  
+  .bars{
+    color: white;
+    font-size: 20px;
+    
+  }
+   
+   
+  
+  .input {
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color:gray;
+    color: white;
+    border: none;
+    font-size: 15px;
+    outline: none;
+  }
+  .facebook{
+    
+    color: navy;
+  }
+  .checked{
+    height: 18px;
+    width: 18px;
+    
+  }
+  .position{
+    font-size: 18px;
+    color:white;
+   position: absolute; 
+   top :270px;
+   left: 370px;
+  }
+
+  .or {
+    color: white;
+    text-align: center;
+    margin-right: 35px;
+    margin-top: 5px;
+  }
+  
+  .input1{
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    border-radius:10px ;
+    margin-top: 20px;
+    color: black;
+    background-color:gray;
+    font-size: 15px;
+    margin-bottom: 20px;
+    outline: none;
+    color: white;
+  }
+  
+  .input1:focus{
+    border: 3px solid lightblue;
+  }
+  
+  
+  .nav-images{
+    
+    background-image: url('house-1836070_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+  
+  }
+  
+  
+  .input:focus {
+    border: 3px solid lightblue;
+  }
+  
+  .welcome{
+    color: white;
+    text-align: center;
+  }
+  .achieve{
+    color: white;
+    text-align: center;
+  }
+  .register {
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+  }
+  
+  
+  .red{
+    color: red;
+    position: absolute;
+    top: 358px;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  
+  .mobile-links{
+    list-style-type: none;
+    position: absolute;
+    right: 0px;
+    flex-direction: column;
+    height: 60vh;
+    background-color:rgb(78, 88, 97);
+    padding-top: 30px;
+   margin-top:10px ;
+   margin-right: 5px;
+   border-radius: 10px;
+    width: 80%;
+   display: flex;
+   gap: 3rem;
+   right: -500px;
+   align-items: center;
+   animation: menu-nav 1.5s ease-in-out -1s 1  forwards ;
+   z-index: 3;
+   top: 60px;
+   
+  }
+  
+  
+  ::placeholder{
+    color: white;
+  }
+  
+  
+   .submit{
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    border-radius:10px ;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+   }
+  
+  .agreement {
+    color: white;
+    font-size: 12px;
+    margin-top:20px ;
+    margin-left: 10px;
+  }
+  
+   .btn{
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    border-radius:10px ;
+    margin-top: 20px;
+    color: white;
+    background-color:blueviolet;
+    font-size: 15px;
+   }
+  
+   .btn1{
+    width: 350px;
+    padding: 10px 0px 10px 10px;
+    border-radius:10px ;
+    margin-top: 20px;
+    color: black;
+    background-color:white;
+    font-size: 15px;
+  
+   }
+  
+  } 
+ 
+
+
+
+
+
+@media  screen and (min-width:1041px) {
+  
+
+form{
+  margin-left: 75px;
+}
+
+ 
+.nav-links1{
+  background-color: #061E45;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  color: white;
+  
+}
+ 
+
+
+ 
+.input {
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  margin-top: 30px;
+  border-radius: 10px;
+  background-color:gray;
+  color: white;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  
+}
+
+.facebook{
+  
+  color: navy;
+}
+.checked{
+  height: 18px;
+  width: 18px;
+  
+}
+.position{
+  font-size: 18px;
+  color:white;
+ position: absolute; 
+ top :290px;
+ left: 440px;
+}
+.or {
+  color: white;
+  text-align: center;
+  margin-right: 55px;
+  
+}
+
+.input1 {
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background-color:gray;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  
+}
+
+.input1:focus {
+  border: 3px solid lightblue;
+}
+.input:focus {
+  border: 3px solid lightblue;
+}
+
+.welcome{
+  color: white;
+  text-align: center;
+}
+.achieve{
+  color: white;
+  text-align: center;
+}
+.register {
+  color: white;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.red{
+  color: red;
+  position: absolute;
+  top: 390px;
+  font-size: 10px;
+  margin-left: 5px;
+}
+
+.navy2 {
+  background-color:midnightblue;
+  margin: 0;
+  width: 550px;
+  padding-top: 30px;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform:
+  translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  margin-top: 25px;
+
+}
+
+::placeholder{
+  color: white;
+}
+ .navy {
+  background-image: url('house-1836070_1280.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  
+ } 
+ .submit{
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  background-color: blueviolet;
+  color: white;
+  margin-bottom: 15px;
+ }
+.agreement {
+  color: white;
+  font-size: 12px;
+  margin-top:20px ;
+  margin-left: 10px;
+  margin-right: 135px;
+}
+ .btn{
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  border-radius:10px ;
+  margin-top: 15px;
+  color: white;
+  background-color:blueviolet;
+  font-size: 15px;
+
+ }
+ .btn1{
+  width: 400px;
+  padding: 10px 0px 10px 10px;
+  border-radius:10px ;
+  margin-top: 30px;
+  color: black;
+  background-color:white;
+  font-size: 15px;
+
+ }
+
+}
+
+
+
