@@ -97,7 +97,7 @@ const handlepassword = (e) =>{
            <input type="email" className="input" onChange={handleInput} name="email" required  placeholder="Email" value={formData.email} autoComplete="on"/> <br/>
            <input type={icons ? 'text' : 'password' } className="input" onChange={handlepassword} name="password" required placeholder="Password" value={formData.password} maxLength={10} /> <br/>
          {icons ? <FaEyeSlash className="position" onClick={handleVisibility} /> : <FaEye className="position" onClick={handleVisibility}/> }
-         <input type="password" className="input1" onChange={handlecomfirmpassword} name="comfirmpassword" required placeholder="Comfirm password" value={formData.comfirmpassword} maxLength={10} /> <br/>
+         <input type={icons ? 'text' : 'password' } className="input1" onChange={handlecomfirmpassword} name="comfirmpassword" required placeholder="Comfirm password" value={formData.comfirmpassword} maxLength={10} /> <br/>
          <p className="red">{err}</p>
 
            <input type="checkbox" className="checked" onChange={handleInput} name="agreement" required checked={formData.agreement} id="agreement" />
